@@ -2,9 +2,8 @@
   "name": "monorepo-next-aws-containers",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/ShareMyWebStuff/monorepo-next-aws-containers.git",
   "author": "Dave Ferguson <dave@harmonydata.co.uk>",
+  "description": "My Website",
   "workspaces": [
     "packages/frontend",
     "packages/cdk"

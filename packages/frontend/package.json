@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "local": "next dev",
+    "build:prd": "docker compose -f docker/production/docker-compose.yml build",
+    "start:prd": "docker compose -f docker/production/docker-compose.yml up -d",
+    "stop:prd": "docker compose -f docker/production/docker-compose.yml down",
+    "build": "next build",
+    "start": "next start",
+    "check": ""
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

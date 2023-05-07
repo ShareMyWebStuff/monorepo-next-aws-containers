@@ -29,6 +29,6 @@ jobs:
           cd packages/cdk
           yarn install --frozen-lockfile
       - name: Synth Stack
-        run: cd ls && packages/cdk && ls && yarn cdk synth
+        run: ls && cd packages/cdk && ls && yarn cdk synth
       - name: Deploy Stack
         run: cd packages/cdk && yarn cdk deploy --all --require-approval never

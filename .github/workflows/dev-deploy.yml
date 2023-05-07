@@ -26,8 +26,10 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
       - name: List Items
         run: |
-          ls
-          cd packages/cdk
+          pwd
+          cd packages
+          pwd
+          cd cdk
           ls
       - name: Install Dependencies
         run: |
